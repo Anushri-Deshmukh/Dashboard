@@ -44,17 +44,17 @@
 
 @media (min-width: 768px) {
   .RecentOrders {
-    flex: 2; /* Takes more space */
+    flex: 2; 
   }
 
   .Feedback {
-    flex: 1; /* Takes less space */
+    flex: 1; 
   }
 }
 
 @media (max-width: 768px) {
   .RecentOrders,
   .Feedback {
-    flex: 1 1; /* Stack items on top of each other on small screens */
+    flex: 1 1; 
   }
 }

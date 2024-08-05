@@ -46,19 +46,17 @@
   justify-content: center;
   padding: 0 20px 0 0px;
   gap: 1px;
-  flex-wrap: wrap; /* Allows items to wrap to the next line */
+  flex-wrap: wrap; 
 }
 
-/* Common card styles */
 .Widgets, .NetProfit {
   border-radius: 10px;
   color: #fff;
   padding: 20px;
   box-sizing: border-box;
-  flex: 1 1 100%; /* Default to full width */
+  flex: 1 1 100%; 
 }
 
-/* Responsive styles for tablets and mobile */
 
 
 .WidgetTitle,
@@ -73,16 +71,16 @@
 
 @media (min-width: 768px) {
   .Widgets {
-    flex: 2; /* Takes more space */
+    flex: 2; 
   }
 
   .NetProfit {
-    flex: 1; /* Takes less space */
+    flex: 1; 
   }
 }
 
 @media (max-width: 980px) {
   .Widgets, .NetProfit {
-    flex: 1 1 100%; /* Stack items on top of each other on small screens */
+    flex: 1 1 100%; 
   }
 }
