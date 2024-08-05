@@ -1,0 +1,66 @@
+.widgetCard {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.widgetContent {
+  text-align: left;
+}
+
+.widgetTitle {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.widgetValue {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.widgetChange {
+  display: flex;
+  margin-top: 10px;
+}
+
+.widgetChange.positive {
+  color: #00ff00;
+}
+.widgetLastContent{
+    display: flex;
+    justify-content: space-between;
+
+}
+.widgetChange.negative {
+  color: #ff0000;
+}
+.widget-icon{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #00aaff;
+}
+.section-icon{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    padding: 5px; 
+}
+
+.widgetChange svg {
+  margin-right: 5px;
+}
+.section-avatar {
+  width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

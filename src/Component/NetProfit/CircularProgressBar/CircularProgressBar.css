@@ -1,0 +1,30 @@
+.circularProgressBarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circularProgressBar {
+  transform: rotate(-90deg);
+}
+
+.circularProgressBackground {
+  fill: none;
+  stroke: #3a3a3a;
+}
+
+.circularProgress {
+  fill: none;
+  stroke: #00aaff;
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+
+.percentageText {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: -45px;
+}

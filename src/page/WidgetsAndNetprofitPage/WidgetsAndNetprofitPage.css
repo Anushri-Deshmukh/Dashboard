@@ -1,0 +1,88 @@
+/* .WN-MainContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+  gap:15px;
+  
+}
+
+.CardContainer {
+  display: flex;
+  gap: 20px; 
+  width: 100%;
+}
+
+.Widgets {
+  padding: 20px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.NetProfit {
+  padding: 0 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  flex: 1;
+}
+
+.WidgetTitle,
+.NetProfitTitle {
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.WidgetContent,
+.NetProfitContent {
+  color: #fff;
+} */
+
+
+.WN-MainContainer {
+  display: flex;
+  justify-content: center;
+  padding: 0 20px 0 0px;
+  gap: 1px;
+  flex-wrap: wrap; /* Allows items to wrap to the next line */
+}
+
+/* Common card styles */
+.Widgets, .NetProfit {
+  border-radius: 10px;
+  color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  flex: 1 1 100%; /* Default to full width */
+}
+
+/* Responsive styles for tablets and mobile */
+
+
+.WidgetTitle,
+.NetProfitTitle {
+  margin-bottom: 5px;
+}
+
+.WidgetContent,
+.NetProfitContent {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .Widgets {
+    flex: 2; /* Takes more space */
+  }
+
+  .NetProfit {
+    flex: 1; /* Takes less space */
+  }
+}
+
+@media (max-width: 980px) {
+  .Widgets, .NetProfit {
+    flex: 1 1 100%; /* Stack items on top of each other on small screens */
+  }
+}

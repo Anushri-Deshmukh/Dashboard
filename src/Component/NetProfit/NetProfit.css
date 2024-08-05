@@ -1,0 +1,73 @@
+
+
+.NetProfitTitle {
+  color: #fff;
+}
+
+.NetProfitContent {
+  color: #fff;
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.netProfitMainContainer{
+    padding: 10px 43px;
+    background-color: #2a2a2a;
+    /* margin-top: 25px; */
+    border-radius: 5px;
+        width: 83%;
+}
+.netProfitCard {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.netProfitTitle {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #b2aeae;
+}
+
+.netProfitContent {
+  display: flex;
+ 
+  justify-content: space-between;
+
+  margin-bottom: 10px;
+}
+
+.netProfitAmount {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.netProfitPercentage {
+  display: flex;
+  align-items: center;
+  color: #00ff00;
+  font-size: 18px;
+}
+
+.arrowIcon {
+  margin-right: 5px;
+}
+
+.netProfitProgressBar {
+  width: 100%;
+  background-color: #3a3a3a;
+  border-radius: 5px;
+  height: 10px;
+  overflow: hidden;
+}
+
+.progressBarFill {
+  height: 100%;
+  background-color: #00ff00;
+  border-radius: 5px;
+}

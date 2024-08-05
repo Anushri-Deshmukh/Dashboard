@@ -1,0 +1,54 @@
+.MenuCards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.goals-card {
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  padding: 20px 0;
+  color: #fff;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.section-icon{
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+}
+
+.menucard-avatar {
+  width: 30px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #00aaff;
+}
+
+.section-title {
+  flex-grow: 1;
+}
+
+.section-icon {
+  color: #fff;
+  font-size: 18px;
+}
